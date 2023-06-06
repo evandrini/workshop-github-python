@@ -1,0 +1,49 @@
+programa {
+  funcao inicio() {
+    caracter nome
+    inteiro ano_nasc
+
+escreva ("Olá Infinity, vamos aprender a programar\n)"    
+
+escreva("Digite seu nome:\n")
+leia(nome) 
+
+escreva("Digite seu ano de nascimento:\n")
+leia(ano_nasc)
+
+escreva("\n----------------\n")
+
+escreva("Meu nome é \n",nome)
+escreva(ano_nasc)
+}
+}
+
+programa {
+  funcao inicio() {
+  
+  real n1, n2, n3, media
+
+  escreva("Digite a primeira nota do aluno:\n")
+  leia(n1) 
+
+  escreva("Digite a segunda nota do aluno:\n")
+  leia(n2)
+
+  escreva("Digite a terceira nota do aluno:\n")
+  leia(n3)
+
+  media = (n1+n2+n3) /3 
+
+  escreva("A média das notas são:",media,"\n\n")
+
+se media>5
+escreva ("Aluno aprovado")
+
+senao {se media>4{
+escreva ("Aluno em Recuperação")
+}
+senao {
+escreva ("Aluno reprovado") }
+}
+}
+
